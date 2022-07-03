@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" type="text/css" href="./styls.css">
+</head>
+<body>
+    <header>
+        <img  class="logo" src="./imagenes restaurante/logo.local.png" alt="logo">
+    <nav class="navbar-menu">
+        <ul class="contenedor-menu">
+        <li><a class="contenedor-menu-enlace"href="https://www.ristorantesantaelisabetta.it/es/menu/">Nuestro Menu</a></li>
+        <li><a class="contenedor-menu-enlace"href="https://www.ristorantesantaelisabetta.it/wp-content/uploads/2021/02/carta-vino-2021.pdf">Nuestros Vinos</a></li>
+        <li><a class="contenedor-menu-enlace"href="https://www.ristorantesantaelisabetta.it/es/ubicacion/">Ubicacion</a></li>
+        <li><a class="contenedor-menu-enlace"href="https://www.ristorantesantaelisabetta.it/es/ubicacion/">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+    <div class="contenedor-elaboraciones">
+        <h1>Especializados en cocteleria</h1>
+        <p>Apostamos por una alimentacion de calidad y saludable.Nuestro menu tanto de comidas como de cocteleria cambia como las estaciones del año.Añadimos el sabor de nuestro entorno colaborando con los agricultores de kilometro 0.</p>
+    </div>
+    <section class="contenedor-galeria">
+        <article>
+        <img class="contenedor-galeria-cocteles" src="./imagenes restaurante/bar.playa.jpeg" alt="mesa">
+        <img class="contenedor-galeria-cocteles" src="./imagenes restaurante/coctel.uno.jpeg" alt="cocteluno">
+        <img class="contenedor-galeria-cocteles" src="./imagenes restaurante/foto.dia.jpeg" alt="cocteldos">
+        <img class="contenedor-galeria-cocteles" src="./imagenes restaurante/coctel.dos.jpeg" alt="cocteltres">
+        <img class="contenedor-galeria-cocteles" src="./imagenes restaurante/coctel.tres.jpeg" alt="coctelcuatro">
+        <img class="contenedor-galeria-cocteles" src="./imagenes restaurante/coctel.cinco.png" alt="coctelcinco">
+        </article>
+        <article class="contenedor-carta">
+            <p>Nuestro menu</p>
+            <img class="contenedor-carta-img"src="./imagenes restaurante/1652283914412.jpg" alt="menu">
+        </article>
+    </section>
+    <div class="contenedor-reserva">
+    <form method="post" action="/register">
+        <div>
+            <h1>Haz tu reserva</h1>
+            <label for="star">Seleccione Fecha</label>
+            <input type="date" class="stylo-caja" id="star" name="trip-start" value="2022-05-07"
+         min="2022-05-07" max="2023-12-31" >
+        </div>
+        <div>
+            <label for="Hora">Seleccione una Hora</label>
+            <input type="number" class="stylo-caja"name="hora"   minlength="2"  required>
+        </div>
+        <div>
+            <label for="Numero de Personas">Numero de Personas</label>
+            <input type="number" class="stylo-caja"name="Personas"   minlength="1"  required>
+        </div>
+        <div>
+            <label for="Nombre reserva">Nombre de la Reserva</label>
+            <input type="name" class="stylo-caja" name="nombre"   minlength="5" maxlength="10" required>
+        </div>
+        <button type="submit">Solicitar</button>
+        <div>
+        <p><span>Si no tenemos disponibilidad por favor inscribete en nuestra lista de reserva</span></p>
+        <label for="Nombre reserva">Nombre de la Reserva</label>
+         <input type="name" class="stylo-caja"name="nombre"   minlength="5" maxlength="10" required>
+         <label for="Numero de contacto">Numero de Contacto</label>
+         <input type="number" class="stylo-caja" name="number"   minlength="9" maxlength="15" required>
+        <button type="submit">Añadirme a lista</button>
+        </div>
+    </form>
+</div>
+<div class="bloque-logo">
+    <img src="./imagenes restaurante/logo.block.png" alt="logo">
+    <img src="./imagenes restaurante/logo.block.png" alt="logo">
+    <img src="./imagenes restaurante/logo.block.png" alt="logo">
+    <img src="./imagenes restaurante/logo.block.png" alt="logo">
+    <img src="./imagenes restaurante/logo.block.png" alt="logo">
+    <img src="./imagenes restaurante/logo.block.png" alt="logo">
+</div>
+<div class="container-direccion">
+    <p><span> Ubicacion Plaza Santa Elisabetta, 3 50122 Florencia.</span></p>
+    <p><span>Nuestro horario es de Martes a Sabado desde las 12:30 a las 23:00 horas</span></p>
+    <p><span>Contactanos Telf.+3900000000 Movil.+39222222222</span></p>
+</div>
+<section class="container-blog">
+    <h1>Blog</h1>
+    <article class="container-blog">
+        <h3>Cocteleria Bar</h3>
+        <img src="./imagenes restaurante/frutapasion.jpeg"alt="passion">
+        <p>Nuevos cocteles fruta de la passion</p>
+    </article>
+    <article class="container-blog">
+        <h3>Cocteleria Terraza</h3>
+        <img src="./imagenes restaurante/fototerraza.jpeg"alt="terraza">
+        <p>Abrimos nueva terraza</p>
+    </article>
+    <article class="container-blog">
+        <h3>Colaboracion</h3>
+        <img src="./imagenes restaurante/comidajornada.jpeg" alt="comida">
+        <p>Visita nuestras jornadas de recogida y aprovechamiento de alimentos</p>
+    </article>
+</section>
+<footer>
+    <div class="contenedor-footer">
+        <h3>Visita Nuestras Redes</h3>
+        <a href="https://es-la.facebook.com/"><img class="contenedor-footer-redes"src="./imagenes restaurante/facebook.png"></a>
+        <a href="https://www.instagram.com/accounts/login/"><img class="contenedor-footer-redes"src="./imagenes restaurante/instagram.jpeg"></a>
+        <a href="https://www.instagram.com/accounts/login/"><img class="contenedor-footer-redes"src="./imagenes restaurante/twitter.png"></a>
+    </div>
+    <div class="contenedor-derechos">
+        <p>@2022.Todos nuestros derechos reservados.</p>
+    </div>
+</footer>
+</body>
+</html>

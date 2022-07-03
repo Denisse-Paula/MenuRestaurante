@@ -1,0 +1,126 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: #78909C ;
+}
+.logo{
+    max-width: 250px;
+    display: block;
+    text-align: left;
+    padding: 2%;
+ }
+.contenedor-menu{
+    display: flex;
+    text-align: right;
+    padding-right: 10%;
+    padding: 2%;
+    color: #78909C;
+}
+.contenedor-menu-enlace{
+    display:inline-flex;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-family:monospace;
+    color:rgb(100, 98, 117);
+    padding: 3%;
+}
+.contenedor-elaboraciones{
+    display: block;
+    text-align: center;
+    color:rgb(100, 98, 117);
+    opacity: initial;
+    font-family: monospace;
+}
+.contenedor-galeria{
+    display: block;
+    text-align: center;
+    background-color: rgb(100, 98, 117);
+    
+}
+.contenedor-galeria-cocteles{
+    justify-content:space-around;
+    width: 350px;
+    height: 350px;
+    padding: 5%;
+
+}
+.contenedor-carta{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    text-shadow:whitesmoke;
+}
+.contenedor-carta-img{
+    max-width: 40%;
+    max-height: 50%;
+}
+.contenedor-reserva{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbP1L8EiIBM5wkgr840lFh1IfrSt1qSQZ93g&usqp=CAU);
+    font-size:25px;
+    font-family: monospace;
+    text-shadow:whitesmoke;
+    display:block;
+    text-align: center;
+    color: #78909C;
+}
+button{
+    background:transparent;
+    border:2px solid #78909C;
+    border-radius: 6px;
+    
+}
+button:hover{
+    background-color: #78909C;
+    color: whitesmoke;
+}
+.stylo-caja{
+    border-radius: 5px;
+    border: 1px solid #78909C;
+}
+.bloque-logo{
+    display:inline-flex;
+    text-align: center;
+    padding: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+    
+}
+.container-direccion{
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: large;
+    
+}
+.container-blog{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: whitesmoke;
+    padding: 2%;
+}
+.contenedor-footer{
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: large;
+
+}
+.contenedor-footer-redes{
+    max-width: 35px;
+    max-height: 35px;
+}
+.contenedor-derechos{
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    font-family: monospace;
+}
